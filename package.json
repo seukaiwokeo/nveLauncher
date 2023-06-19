@@ -1,0 +1,33 @@
+{
+  "name": "nvelauncher",
+  "version": "1.0.0",
+  "description": "Node.js Game Patcher & Launcher",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run dev",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seukaiwokeo/nveLauncher.git"
+  },
+  "keywords": [
+    "game",
+    "patcher",
+    "launcher"
+  ],
+  "author": "seukaiwokeo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seukaiwokeo/nveLauncher/issues"
+  },
+  "homepage": "https://github.com/seukaiwokeo/nveLauncher#readme",
+  "devDependencies": {
+    "electron": "^25.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "createjs": "^1.0.1",
+    "jquery": "^3.7.0"
+  }
+}
